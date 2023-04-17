@@ -1,0 +1,115 @@
+.all{
+    width: 100%;
+    height: 80vh;
+    background-color: #9A65A8;
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.redes svg{
+    width: 100px;
+    height: 100px;
+    color: #E5ABF5;
+}
+.redes a{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-right: 3px solid #E5ABF5;
+}
+h1{
+    color: #E5ABF5;
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: #9A65A8;
+    margin: 0;
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.alinhar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    width: 100%;
+    color: #E5ABF5;
+    font-size: 1rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.alinhar svg{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+.botao{
+    border: 3px solid #E5ABF5;
+    background-color: #9A65A8;
+    color: #E5ABF5;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2% 0 2% 0;
+    transition: 0.2s;
+}
+.botao:hover{
+    background-color: #E5ABF5;
+    color: #9A65A8;
+}
+.alinharContato{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    gap: 10%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#insta{
+    border-right: none;
+}
+@media only screen and (max-width: 479px) {
+    .botao{
+        font-size: 1rem;
+    }
+    .redes{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .redes a{
+        border-bottom: 3px solid #E5ABF5;
+        border-right: none;
+        padding-bottom: 50px;
+        width: 40px;
+        height: 40px;
+    }
+    .redes #insta{
+        border: none;
+    }
+    .redes svg{
+        height: 40px;
+        width: 40px;
+    }
+    h2{
+        font-size: 0.6rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}

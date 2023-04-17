@@ -1,0 +1,38 @@
+.all{
+    background-color: #E5ABF5;
+}
+.boxCardProjects{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E5ABF5;
+}
+.projectTittle{
+    color: #9A65A8;
+    background-color: #E5ABF5;
+    font-size: 3rem;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.breve{
+    min-width: 150%;
+    background-color: #E5ABF5;
+    font-size: 2vw;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    color: #9A65A8;
+    transform: rotate(45deg);
+}
+.cardSkills:hover{
+    background-color: red;
+}
+@media only screen and (max-width: 479px) {    
+    .projectTittle{
+        font-size: 2rem;
+    }
+}

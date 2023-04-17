@@ -1,0 +1,39 @@
+.boxCardSkills{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E5ABF5;
+}
+.all{
+    background-color: #E5ABF5;
+    width: 100%;
+}
+#sobre{
+    background-color: #E5ABF5;
+    color: #9A65A8;
+    padding: 0;
+}
+.boxSobre{
+    width: 600px;
+    margin-top: 50px;
+    height: fit-content;
+    background-color: #9A65A8;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.boxSobre p{
+    font-size: 25px;
+    color: #E5ABF5;
+    font-weight: 500;
+}
+@media only screen and (max-width: 479px) {
+    .projectTittle{
+        font-size: 2rem;
+    }
+}
