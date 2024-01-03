@@ -23,7 +23,7 @@ const top = ({irProjetos, irSobre, irHabilidades, irContato}) => {
             </div>
             <div className={styles.dir}>
               <div className={styles.alinharBotoes}>
-                <button className={styles.botoes} onClick={irSobre}>SAIBA MAIS</button>
+                <button className={styles.botoes} onClick={irSobre}>SAIBA MAIS100</button>
                 <button className={styles.botoes} onClick={irHabilidades}>HABILIDADES</button>
                 <div className={styles.break}></div>
                 <button className={styles.botoes} onClick={irProjetos}>PROJETOS</button>
