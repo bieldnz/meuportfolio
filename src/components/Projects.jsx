@@ -15,7 +15,7 @@ const Projects = (props, ref) => {
     <div className={StyleProjects.all}>
         <h1 className={StyleProjects.projectTittle} ref={ref}>PROJETOS</h1>
         <div className={StyleProjects.boxCardProjects}>
-        <Card link="https://gamoragym.netlify.app" icon={<b className={StyleProjects.breve}>GAMORA GYM</b>} myStyle={myStyle}/>
+        <Card link="https://product-register.netlify.app" icon={<b className={StyleProjects.breve}>GAMORA GYM</b>} myStyle={myStyle}/>
         <Card link="https://gitstarwars.netlify.app/" icon={<b className={StyleProjects.breve}>APIs</b>} myStyle={myStyle}/>
         <Card link="https://marketplace-sg1u.vercel.app/" icon={<b className={StyleProjects.breve}>PROJETOS</b>} myStyle={myStyle}/>
         </div>
