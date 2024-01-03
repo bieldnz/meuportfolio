@@ -10,7 +10,7 @@ const Projects = (props, ref) => {
     backgroundColor: "#9A65A8",
     color: "#E5ABF5"
   }
-
+//sdfg
   return (
     <div className={StyleProjects.all}>
         <h1 className={StyleProjects.projectTittle} ref={ref}>PROJETOS</h1>
