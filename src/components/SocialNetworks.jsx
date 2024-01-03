@@ -25,7 +25,7 @@ const SocialNetworks = (props, ref) => {
           <AiFillPhone color='#E5ABF5' />
           <h2>1194516-0890</h2>
         </div>
-        <a className={Styles.botao} href="/curriculo.pdf" download>DOWNLOAD CURRÍCULO</a>
+        <a className={Styles.botao} target='_blank' href="https://drive.google.com/file/d/1ELmOBOTHytkiQqW9iZDvpyKAfoNKXzB7/view?usp=sharing" download>DOWNLOAD CURRÍCULO</a>
       </div>
     </div>
   )
